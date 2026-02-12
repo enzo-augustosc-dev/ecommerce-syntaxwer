@@ -3,10 +3,10 @@
     position: fixed;
     z-index: 999;
 
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
 
     border-radius: 15px;
 

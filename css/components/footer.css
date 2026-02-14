@@ -49,6 +49,7 @@
 }
 
 .newsletter-form input {
+    display: flex;
     width: 344px;
 
     padding: 12px 20px;

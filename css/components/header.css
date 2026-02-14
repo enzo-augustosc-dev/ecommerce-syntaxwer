@@ -6,7 +6,7 @@
     top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 210px);
+    width: 1260px;
 
     border-radius: 15px;
 
@@ -78,9 +78,11 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 @media (max-width: 1280px) {

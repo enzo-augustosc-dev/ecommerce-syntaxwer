@@ -44,3 +44,30 @@
     display: flex;
     gap: 16px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        height: 660px;
+    }
+
+    .hero-content {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .hero-overlay {
+        padding: 0;
+    }
+
+    .hero-content .hero-title {
+        font-size: 24px;
+    }
+
+    .hero-content .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
